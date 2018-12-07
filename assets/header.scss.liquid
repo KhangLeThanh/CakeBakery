@@ -1,0 +1,94 @@
+.site-header{
+    position: fixed;
+}
+.wrapper{
+    max-width:1180px;
+}
+.wrapper.full-width{
+    max-width:100%;
+}
+.vertical-menu {
+    margin: 0 0  0 13px;
+    .site-nav__item{
+        display:block;
+    }
+    a{
+        display: block;
+        padding: 5px 0px;
+        text-decoration: none;
+        font-weight:600;
+        font-size:1em;
+        text-transform:  capitalize;
+    }
+}
+.site-header .grid--table{
+    .grid__item{
+         vertical-align:top;
+    }
+}
+.site-nav__link{
+    font-size:1.2em;
+    padding:5px;
+}
+ .site-nav__link, .site-header__logo a, .site-nav__link:hover, .site-header__logo a:hover{
+    color: #000 !important;
+}
+.site-nav__dropdown{
+    box-shadow: none;
+    padding-left: 20px;
+    a{
+        font-style: normal;
+        font-weight:500;
+        font-size:1.2em;
+    }
+} 
+.burger-icon{
+    background: #000 !important;
+}
+.item-fullwidth{
+    .large--one-third{
+        width:100%;
+    }
+}
+.footer-list{
+    text-align: left;
+    list-style: none;
+    li{
+        font-size:1.2em;
+    }
+}
+.footer-list{
+    a{
+        color:#a88c5a;
+        font-weight:600;
+    }
+    a:hover{
+        color: #ab9670;
+    }
+}
+#shopify-section-footer{
+    padding-top: 30px;
+    background-color: #f5f5f5;
+}
+.footer-list.list-icon{
+    li{
+        display:inline-block;
+        margin-left: 10px;
+        i{
+            font-size:1.8em;
+            color:#A88C5A;
+        }
+        i:hover{
+            color:#ab9670;
+        }
+    }
+    
+}
+@media screen and (max-width: 768px){
+    .vertical-menu{
+        display:none;
+    }
+    .site-header{
+        position: relative;
+    }
+}
